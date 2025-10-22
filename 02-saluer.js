@@ -10,7 +10,7 @@
   Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
 */
 function saluer(nom) {
-  if (x = nom) {
+  if (nom) {
     console.log("Bonjour " + nom);
   } else {
     console.log("Bonjour inconnu !");
