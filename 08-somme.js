@@ -10,10 +10,18 @@
   Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
 */
 function somme(n) {
-  // Exercice non implémenté : retourner la somme de 1 à n
-  // Placeholder neutre : retourne 0 pour indiquer non-implémentation
-  return 0;
+  if (typeof n !== "number" || n < 0)
+  {
+   return 0; 
+  }
+  let somme = 0;
+  for (let i = 1; i <= n ; i++)
+  {
+    somme += i;
+  }
+  return somme;
 }
+console.log(somme (8));
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { somme }
