@@ -1,4 +1,4 @@
-# Exercices Boucles et Fonctions – Rachel Fayila
+# Exercices Boucles et Fonctions 
 
 Ce projet contient une série d’exercices JavaScript portant sur les **boucles** et les **fonctions**, réalisés dans le cadre de la formation Kadea DEV 2025.
 
